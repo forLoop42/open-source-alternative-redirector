@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Open-Source Alternative Redirector",
+    "version": "9.0.0",
+
+    "content_scripts": [
+        {
+            "matches": [ "<all_urls>" ],
+            "js": [ "/index.js" ]
+        }
+    ],
+
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+            "38": "/icon.png"
+        },
+        "default_title": "Open-Source Alternative Redirector",
+        "default_popup": "/index.html"
+    }
+}
+// https://youtube.com/watch?v=6B0rlq-TZcg
