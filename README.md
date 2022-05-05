@@ -1,4 +1,6 @@
-# Open Source Alternative Redirector
+<a href="https://addons.mozilla.org/en-US/firefox/addon/open-alternative-redirector/"><img src="https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/addons/files/2015/11/get-the-addon.png"></a>
+
+<h1>Open Source Alternative Redirector</h1>
 
 <h3>Redirects you from proprietary web-services to ethical alternatives.</h3>
 <ol>Redirect List:</ol>
