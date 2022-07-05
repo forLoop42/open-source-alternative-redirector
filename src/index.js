@@ -97,7 +97,7 @@ var url = new URL(location.href),
 
 // INSTANCES //
 invidious = 'yewtu.be',
-searx = 'search.privacyguides.net',
+searx = 'search.mdosch.de',
 libreddit = 'reddit.invak.id',
 nitter = 'nitter.snopyta.org',
 bibliogram = 'bibliogram.pussthecat.org',
@@ -134,10 +134,7 @@ if(location.host.includes('google.')){
 }
 
 // Yahoo | SearX //
-if(location.host.indexOf('www.yahoo.com') != -1){
-    //if(location.hostname.match(/news.yahoo.+/)){
-    //    return
-    //}
+if(location.host.indexOf('yahoo.com') != -1){
     let search = location.search.replace('?p', '?q')
     location.replace('https://' + searx + location.pathname + search)
 }
