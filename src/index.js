@@ -128,7 +128,7 @@ if(location.host.includes('google.')){
         }
     // Google | SearX //
     //} else if(location.href.match(/(www\.)?google\.com(\/search)?(?!\/\w)/)) {
-    } else if(location.host.match(/www.google.+/) && location.href.match(/.*google\.com(\..*)?(\/search)?(?!\/\w)/)) {
+    } else if(location.host.match(/www.google.+/) && location.href.match(/.*google(\..*)?(\/search)?(?!\/\w)/)) {
         location.replace('https://' + searx + location.pathname + location.search)
     }
 }
