@@ -45,7 +45,7 @@
 // @description:zh-TW 將您從專有網絡服務重定向到道德替代品（前端）。
 // @author NotYou
 // @include *youtube.com/*
-// @include *google.com/*
+// @include *google.*
 // @include *yahoo.com/*
 // @include *bing.com/*
 // @include *reddit.com/*
@@ -128,7 +128,7 @@ if(location.host.includes('google.')){
         }
     // Google | SearX //
     //} else if(location.href.match(/(www\.)?google\.com(\/search)?(?!\/\w)/)) {
-    } else if(location.host.match(/www.google.+/) && location.href.match(/.*google\.com(\/search)?(?!\/\w)/)) {
+    } else if(location.host.match(/www.google.+/) && location.href.match(/.*google\.com(\..*)?(\/search)?(?!\/\w)/)) {
         location.replace('https://' + searx + location.pathname + location.search)
     }
 }
