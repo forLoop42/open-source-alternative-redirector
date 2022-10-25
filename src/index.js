@@ -53,6 +53,7 @@
 // @include *instagram.com/*
 // @include *wikipedia.org/*
 // @include *medium.com/*
+// @include *towardsdatascience.com/*
 // @include *i.imgur.com/*
 // @include *i.stack.imgur.com/*
 // @include *odysee.com/*
@@ -170,7 +171,7 @@ if(location.host.indexOf('wikipedia.org') != -1){
 }
 
 // Medium | Scribe //
-if(location.host.indexOf('medium.com') != -1){
+if(location.host.indexOf('medium.com') != -1 || location.host.indexOf('towardsdatascience.com') != -1){
     location.replace('https://' + scribe + location.pathname + location.search)
 }
 
