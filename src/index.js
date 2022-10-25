@@ -107,7 +107,7 @@ lingva = 'lingva.ml',
 scribe = 'scribe.rip',
 rimgo = 'rimgo.pussthecat.org',
 librarian = 'librarian.pussthecat.org',
-proxitok = 'proxitok.herokuapp.com'
+proxitok = 'proxitok.pussthecat.org'
 
 // YouTube | Invidious //
 if(location.host.indexOf('youtube.com') != -1){
