@@ -171,7 +171,7 @@ if(location.host.indexOf('wikipedia.org') != -1){
 }
 
 // Medium | Scribe //
-if(location.host.indexOf('medium.com') != -1 || location.host.indexOf('towardsdatascience.com') != -1){
+if(location.host.indexOf('medium.com') != -1 || location.host.indexOf('towardsdatascience.com') != -1 || location.host.indexOf('levelup.gitconnected.com) != -1){
     location.replace('https://' + scribe + location.pathname + location.search)
 }
 
